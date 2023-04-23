@@ -14,7 +14,8 @@
 
 #eisenhower-matrix { width: 100%; }
 
-.header-part > .more-inf { font-family: fantasy, cursive; }
+.header-part >
+.more-inf { font-family: fantasy, cursive; }
 
 @media (max-width:768px) {
 
@@ -108,18 +109,22 @@ li {
     align-items: center;
 }
 
-li > * { vertical-align: middle; }
+li >
+* { vertical-align: middle; }
 
-li > input[type="checkbox"] { margin: 0 10px; }
+li >
+input[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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type="checkbox"] { margin: 0 10px; }
 
-li > label {
+li >
+label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
 
-li > input[type="text"] { width: 226px; }
+li >
+input[type="text"] { width: 226px; }
 
 
 /* Delete button */
@@ -140,11 +145,17 @@ li > input[type="text"] { width: 226px; }
 
 
 /* Edit Task */
-ul > li > input[type=text] { display:none }
+ul >
+li >
+input[type=text] { display:none }
 
-ul > li.editMode > input[type=text] {
+ul >
+li.editMode >
+input[type=text] {
     display:inline-block;
     width:224px
 }
 
-ul > li.editMode > label { display:none; }
+ul >
+li.editMode >
+label { display:none; }
