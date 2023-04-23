@@ -23,7 +23,7 @@ let createNewTaskElement = function(taskString){
         <label class = "task">${taskString}</label>
         <input type = "text" class="task">
         <button class = "edit">Edit</button>
-        <button class = "delete"><img src="./remove.svg"></button>
+        <button class = "delete"><img class="delete-icon" src="./remove.svg"></button>
     `
 
     return listItem;
